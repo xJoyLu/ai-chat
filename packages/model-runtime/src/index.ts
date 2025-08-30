@@ -1,8 +1,10 @@
+export { LobeAkashChatAI } from './akashchat';
 export { LobeAnthropicAI } from './anthropic';
 export { LobeAzureAI } from './azureai';
 export { LobeAzureOpenAI } from './azureOpenai';
 export * from './BaseAI';
 export { LobeBedrockAI } from './bedrock';
+export { LobeBflAI } from './bfl';
 export { LobeDeepSeekAI } from './deepseek';
 export * from './error';
 export { LobeGoogleAI } from './google';
