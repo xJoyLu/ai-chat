@@ -17,7 +17,7 @@ jobs:
 
       - name: Add upstream
         run: |
-          git remote add upstream https://github.com/源仓库名/源仓库.git
+          git remote add upstream https://github.com/xJoyLu/ai-chat.git
           git fetch upstream
 
       - name: Merge upstream/main into main
